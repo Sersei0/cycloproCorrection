@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{parent()}}Demande de réparation{% endblock %}
+
+{% block body %}
+<h1 class="text-center mt-4">Demande de réparation</h1>
+
+{{form(formReparation) }}
+{% endblock %}
